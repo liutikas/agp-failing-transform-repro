@@ -1,0 +1,12 @@
+plugins {
+    id("com.android.application")
+}
+
+android {
+    compileSdk 31
+}
+
+dependencies {
+    implementation("androidx.lifecycle:lifecycle-common:2.4.0-rc01")
+    implementation(project(":annotation:annotation"))
+}
